@@ -194,6 +194,26 @@
           }
         },
         {
+          "apiVersion": "2014-04-01",
+          "name": "ComposerExtension",
+          "type": "siteextensions",
+          "dependsOn": [
+            "[resourceId('Microsoft.Web/Sites', variables('webSiteName'))]"
+          ],
+          "properties": {
+          }
+        },
+        {
+          "apiVersion": "2014-04-01",
+          "name": "RedirectHttpToHttps",
+          "type": "siteextensions",
+          "dependsOn": [
+            "[resourceId('Microsoft.Web/Sites', variables('webSiteName'))]"
+          ],
+          "properties": {
+          }
+        },
+        {
           "apiVersion": "2015-08-01",
           "name": "web",
           "type": "sourcecontrols",
