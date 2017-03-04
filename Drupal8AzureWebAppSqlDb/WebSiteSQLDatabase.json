@@ -39,7 +39,7 @@
       "type": "string",
       "defaultValue": "https://github.com/SunBuild/drupalcms-azure.git",
       "metadata": {
-        "description": "The URL for the GitHub repository that contains the project to deploy."
+        "description": "The default value is the URL for the GitHub repository that this markeplace entry uses: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/Drupal.Drupal8"
       }
     },
     "GitRepoBranch": {
