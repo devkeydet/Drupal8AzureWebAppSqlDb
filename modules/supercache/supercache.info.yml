@@ -1,0 +1,11 @@
+name: Supercache
+type: module
+description: 'Overriding the slow default cache implementations.'
+package: 'Performance and scalability'
+# version: VERSION
+# core: 8.x
+# Information added by Drupal.org packaging script on 2016-03-23
+version: '8.x-1.0'
+core: '8.x'
+project: 'supercache'
+datestamp: 1458696543
