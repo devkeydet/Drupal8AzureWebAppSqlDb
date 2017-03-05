@@ -37,9 +37,9 @@
     },
     "GitRepoURL": {
       "type": "string",
-      "defaultValue": "https://github.com/SunBuild/drupalcms-azure.git",
+      "defaultValue": "https://github.com/devkeydet/Drupal8AzureWebAppSqlDb.git",
       "metadata": {
-        "description": "The default value is the URL for the GitHub repository that this markeplace entry uses: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/Drupal.Drupal8"
+        "description": "The default value is the URL for this GitHub repository."
       }
     },
     "GitRepoBranch": {

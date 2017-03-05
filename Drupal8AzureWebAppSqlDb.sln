@@ -5,6 +5,27 @@ VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Drupal8AzureWebAppSqlDb", "Drupal8AzureWebAppSqlDb\Drupal8AzureWebAppSqlDb.deployproj", "{E368BF60-4853-41F7-B71C-E9BD2B4D9B5F}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Drupal8AzureWebAppSqlDb", ".", "{23B72F2B-8622-4C69-AC1C-C888B33E957F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52160"
+		Debug.AspNetCompiler.PhysicalPath = "..\Drupal8AzureWebAppSqlDb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52160\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52160"
+		Release.AspNetCompiler.PhysicalPath = "..\Drupal8AzureWebAppSqlDb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52160\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52160"
+		SlnRelativePath = "..\Drupal8AzureWebAppSqlDb\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{E368BF60-4853-41F7-B71C-E9BD2B4D9B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E368BF60-4853-41F7-B71C-E9BD2B4D9B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E368BF60-4853-41F7-B71C-E9BD2B4D9B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B72F2B-8622-4C69-AC1C-C888B33E957F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B72F2B-8622-4C69-AC1C-C888B33E957F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B72F2B-8622-4C69-AC1C-C888B33E957F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B72F2B-8622-4C69-AC1C-C888B33E957F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
