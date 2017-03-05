@@ -174,7 +174,7 @@
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanName'))]",
         "siteConfig": {
           "AlwaysOn": true,
-          "phpVersion": "7.0",
+          "phpVersion": "5.5",
           "clientAffinityEnabled": false
         }
       },
